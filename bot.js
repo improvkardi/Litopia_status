@@ -15,7 +15,7 @@ let websiteStatus = false;
 let serverStatus = false;
 
 function getOnlineStatus(nbPlayer){
-    return nbPlayer>0 ? (nbPlayer > 1 ? nbPlayer + 'joueurs' : '1 joueur') : 'En ligne'
+    return nbPlayer>0 ? (nbPlayer > 1 ? nbPlayer + ' joueurs' : '1 joueur') : 'En ligne'
 }
 
 // Function to check the website status and Minecraft server status, then update bot presence
